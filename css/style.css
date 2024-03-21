@@ -250,7 +250,18 @@ h6,
 
 /*** Section Title ***/
 
-.section-title::before {
+.section-title1::before {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 5px;
+    left: 0;
+    bottom: 0;
+    background: var(--bs-warning);
+    border-radius: 2px;
+}
+
+.section-title2::before {
     position: absolute;
     content: "";
     width: 150px;
