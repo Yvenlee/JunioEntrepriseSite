@@ -250,6 +250,19 @@ h6,
 
 /*** Section Title ***/
 
+/* Partie Informatique */
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 5px;
+    left: 0;
+    bottom: 0;
+    background: var(--primary);
+    border-radius: 2px;
+}
+
+/* Partie Audiovisuel */
 .section-title1::before {
     position: absolute;
     content: "";
@@ -261,6 +274,7 @@ h6,
     border-radius: 2px;
 }
 
+/* Partie Marketing */
 .section-title2::before {
     position: absolute;
     content: "";
@@ -268,21 +282,27 @@ h6,
     height: 5px;
     left: 0;
     bottom: 0;
-    background: var(--primary);
+    background: rgb(212, 136, 4);
     border-radius: 2px;
 }
 
-.section-title.text-center::before {
+.section-title.text-center::before,
+.section-title1.text-center::before,
+.section-title2.text-center::before {
     left: 50%;
     margin-left: -75px;
 }
 
-.section-title.section-title-sm::before {
+.section-title.section-title-sm::before,
+.section-title1.section-title-sm::before,
+.section-title2.section-title-sm::before {
     width: 90px;
     height: 3px;
 }
 
-.section-title::after {
+.section-title::after,
+.section-title1::after,
+.section-title2::after {
     position: absolute;
     content: "";
     width: 6px;
@@ -293,17 +313,23 @@ h6,
     animation: section-title-run 5s infinite linear;
 }
 
-.section-title.section-title-sm::after {
+.section-title.section-title-sm::after,
+.section-title1.section-title-sm::after,
+.section-title2.section-title-sm::after {
     width: 4px;
     height: 3px;
 }
 
-.section-title.text-center::after {
+.section-title.text-center::after,
+.section-title1.text-center::after,
+.section-title2.text-center::after {
     -webkit-animation: section-title-run-center 5s infinite linear;
     animation: section-title-run-center 5s infinite linear;
 }
 
-.section-title.section-title-sm::after {
+.section-title.section-title-sm::after,
+.section-title1.section-title-sm::after,
+.section-title2.section-title-sm::after {
     -webkit-animation: section-title-run-sm 5s infinite linear;
     animation: section-title-run-sm 5s infinite linear;
 }
