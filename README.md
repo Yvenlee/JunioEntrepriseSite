@@ -28,5 +28,5 @@ Ce projet a été réalisé à partir d'un template gratuit fourni par Themewago
 - HAMEDI Elisa
 - LIENARD Mathieu
 - RICHARD Antoine
-- Vonin-Kabel Yvenlee
+- VONIN-KABEL Yvenlee
 
